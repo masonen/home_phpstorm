@@ -1,0 +1,16 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7c709931-4f53-4708-a852-6ae3417bfe49" name="typo3docker" url="http://localhost">
+        <fileTransfer mountedRoot="\\wsl$\Ubuntu-18.04\home\mason\typo3dev\app\public\typo3conf\ext" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="a9fc666a-3e18-4d40-bb49-7ac9c2780a33" name="leipzigesports.de" url="https://leipzigesports.de">
+        <fileTransfer rootFolder="/var/www/vhosts/leipzigesports.de/cms.leipzigesports.de" accessType="SFTP" sshConfigId="27132b62-e279-4d42-929b-43ec6efdf5b0" sshConfig="mason@37.120.164.39:22 key">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

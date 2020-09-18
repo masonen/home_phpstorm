@@ -1,0 +1,15 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ComposerSettings">
+        <execution />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="terminal" />
+      </component>
+      <component name="TerminalProjectNonSharedOptionsProvider">
+        <option name="shellPath" value="C:\Windows\System32\wsl.exe" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
